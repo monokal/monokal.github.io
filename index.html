@@ -1,7 +1,6 @@
 <html>
   <head>
     <title>fennecTEK - DMT extraction guide</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       rel="stylesheet"
@@ -10,40 +9,26 @@
     />
   </head>
   <body style="background-color: rgba(64, 64, 64, 1);">
-    <div id="donate" style="text-align: center; color: white;">
-      <strong>Support this work:</strong>
-      <form
-        action="https://www.paypal.com/cgi-bin/webscr"
-        method="post"
-        target="_top"
-      >
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="WEM5REUVXDG6W" />
-        <input
-          type="image"
-          src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif"
-          border="0"
-          name="submit"
-          alt="PayPal – The safer, easier way to pay online!"
-        />
-        <img
-          alt=""
-          border="0"
-          src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
-          width="1"
-          height="1"
-        />
-      </form>
+    <div style="text-align: center; color: white;">
+      <h1>What are you looking for?</h1>
+    </br></br></br>
+      <div class="container">
+        <div class="row mx-md-n5">
+          <div class="col px-md-5">
+            <a href="lite.html"><h2>fennecTEK Lite for dummies</h2></a>
+            <p>
+              A simplified, quicker, graphical version of fennecTEK in poster
+              format for beginners.
+            </p>
+          </div>
+          <div class="col px-md-5">
+            <a href="full.html"><h2>fennecTEK Full</h2></a>
+            <p>
+              The full version of fennecTEK including all yield-boosting steps.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="tek-pdf"></div>
-
-    <script>
-      var options = {
-        fallbackLink:
-          '<p>Your browser does not support viewing PDF files. Please download the PDF to view it: <a href="[url]">Download PDF</a></p>',
-      };
-      PDFObject.embed("tek.pdf#zoom=FitV", "#tek-pdf", options);
-    </script>
   </body>
 </html>
